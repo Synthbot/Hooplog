@@ -1,6 +1,7 @@
 package com.blog
 
-import grails.plugins.springsecurity.Secured
+import com.manifest.corp.Entry
+import org.springframework.security.access.annotation.Secured
 
 import org.springframework.dao.DataIntegrityViolationException
 
@@ -19,7 +20,7 @@ class EntryController {
 
     @Secured(['ROLE_BLOGGER'])
     def create() {
-        [entryInstance: new Post(params)]
+        [entryInstance: new Entry(params)]
     }
 
     @Secured(['ROLE_BLOGGER'])
