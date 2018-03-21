@@ -3,8 +3,8 @@ package com.manifest.corp.Security
 import org.apache.commons.lang.builder.HashCodeBuilder
 
 class UserRole implements Serializable {
-/*
-    static constraints = {
+
+
 
         User user
         Role role
@@ -56,5 +56,5 @@ class UserRole implements Serializable {
             id composite: ['role', 'user']
             version false
         }
-    }*/
+
 }
