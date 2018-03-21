@@ -1,7 +1,7 @@
-package com.manifest.corp.security
+package com.manifest.corp.Security
 
 class User {
-/*
+
     transient springSecurityService
 
     String username
@@ -36,5 +36,5 @@ class User {
 
     protected void encodePassword() {
         password = springSecurityService.encodePassword(password)
-    }*/
+    }
 }
