@@ -15,12 +15,9 @@
         padding-bottom: 6px;
         margin: 60px auto;
         text-align: left;
-        border: 1px solid #aab;
+        border: 1px solid #00ffff;
         background-color: #2E2E2E;
-        -moz-box-shadow: 2px 2px 2px #eee;
-        -webkit-box-shadow: 2px 2px 2px #eee;
-        -khtml-box-shadow: 2px 2px 2px #eee;
-        box-shadow: 2px 2px 2px #eee;
+        box-shadow: 2px 2px 2px #00ffff;
     }
 
     #login .inner .fheader {
