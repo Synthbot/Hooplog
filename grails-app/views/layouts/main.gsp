@@ -20,6 +20,18 @@
     ul {
         list-style: none;
     }
+    a:link, a:visited {
+        color: #a300ff;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+
+    a:hover, a:active {
+        background-color: #59a3f4;
+    }
     </style>
     <script type="text/javascript" src="${grailsApplication.config.cloudfront.cdn.url}${resource(dir: 'js', file: 'jquery-1.7.1.js')}"></script>
     <g:layoutHead/>
@@ -35,7 +47,7 @@
             </g:link>
             <ul class="nav" style="padding-top:27px;padding-left:20px;">
                 <li id="homeTab">
-                    <g:link controller="home">;
+                    <g:link controller="home">
                         Home
                     </g:link>
                 </li>
