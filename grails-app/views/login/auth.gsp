@@ -24,7 +24,7 @@
         padding: 18px 26px 14px 26px;
         background-color: #2E2E2E;
         margin: 0px 0 14px 0;
-        color: #fff;
+        color: #59a3f4;
         font-size: 18px;
         font-weight: bold;
     }
@@ -45,7 +45,7 @@
     #login .inner .cssform label {
         font-weight: bold;
         float: left;
-        color:#fff;
+        color: #a300ff;
         text-align: right;
         margin-left: -105px;
         width: 110px;
@@ -70,7 +70,7 @@
 
     #login .inner .login_message {
         padding: 6px 25px 20px 25px;
-        color: #fff;
+        color: #ff4c00;
     }
 
     #login .inner .text_ {
