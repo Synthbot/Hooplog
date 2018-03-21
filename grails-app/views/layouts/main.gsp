@@ -25,17 +25,17 @@
     <g:layoutHead/>
     <r:layoutResources />
 </head>
-<body>
+<body style="background-color: #000202;">
 <div class="topbar">
     <div class="topbar-inner">
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-color: #000202;">
             <g:link class="brand" controller="home">
-                <div style="font-family: Frijole;font-size: 38px;color:#FFEF00;">Nuez</div>
-                <div style="font-size:9px;">The blog about anything....really...Anything!</div>
+                <div style="font-family: Monaco;font-size: 90px;color:#00ffff; background-color: #020101">HOOPLOG</div>
+                <div style="font-size:12px; color: #e8ffe2; background-color: #000202">When you need some hooplah in your life</div>
             </g:link>
             <ul class="nav" style="padding-top:27px;padding-left:20px;">
                 <li id="homeTab">
-                    <g:link controller="home">
+                    <g:link controller="home">;
                         Home
                     </g:link>
                 </li>
@@ -67,13 +67,6 @@
     </div>
 </div>
 <g:layoutBody/>
-
-<footer class="footer">
-    <p>&copy; Company 2012</p>
-</footer>
-<div id="spinner" class="spinner" style="display:none;">
-    <g:message code="spinner.alt" default="Loading&hellip;"/>
-</div>
 <script type="text/javascript" src="${grailsApplication.config.cloudfront.cdn.url}${resource(dir: 'js', file: 'application.js')}"></script>
 <r:layoutResources />
 </body>
