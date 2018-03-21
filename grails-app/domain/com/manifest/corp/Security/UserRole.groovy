@@ -1,4 +1,4 @@
-package com.manifest.corp
+package com.manifest.corp.Security
 
 class UserRole {
 

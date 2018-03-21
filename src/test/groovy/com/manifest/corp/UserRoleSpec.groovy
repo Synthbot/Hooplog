@@ -1,5 +1,6 @@
 package com.manifest.corp
 
+import com.manifest.corp.Security.UserRole
 import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
