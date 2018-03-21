@@ -30,7 +30,6 @@
     </style>
     <script type="text/javascript" src="${grailsApplication.config.cloudfront.cdn.url}${resource(dir: 'js', file: 'jquery-1.7.1.js')}"></script>
     <g:layoutHead/>
-    <r:layoutResources />
 </head>
 <body style="background-color: #000202;">
 <div class="topbar">
@@ -75,6 +74,5 @@
 </div>
 <g:layoutBody/>
 <script type="text/javascript" src="${grailsApplication.config.cloudfront.cdn.url}${resource(dir: 'js', file: 'application.js')}"></script>
-<r:layoutResources />
 </body>
 </html>
