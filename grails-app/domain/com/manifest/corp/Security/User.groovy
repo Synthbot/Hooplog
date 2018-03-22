@@ -25,7 +25,7 @@ class User {
     }
 
     def beforeInsert() {
-        encodePassword()
+        /*encodePassword()*/
     }
 
     def beforeUpdate() {

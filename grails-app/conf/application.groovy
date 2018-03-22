@@ -1,10 +1,8 @@
 // Added by the Spring Security Core plugin:
-grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.manifest.Security.User'
-grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.manifest.Security.UserRole'
-grails.plugin.springsecurity.authority.className = 'com.manifest.Security.Role'
-grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-        [pattern: '/**',         access: ['IS_AUTHENTICATED_FULLY']]
-]
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.manifest.corp.Security.User'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.manifest.corp.Security.UserRole'
+grails.plugin.springsecurity.authority.className = 'com.manifest.corp.Security.Role'
+
 
 grails.plugin.springsecurity.filterChain.chainMap = [
         [pattern: '/assets/**',      filters: 'none'],
